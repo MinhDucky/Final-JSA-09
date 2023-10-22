@@ -1,0 +1,47 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "discount": "15%",
+            "name": "Cupcake",
+            "price": "60.000vnđ",  
+            "imgLink": "https://daylambanh.edu.vn/wp-content/uploads/2018/06/cach-lam-banh-cupcake-sinh-nhat.jpg"
+        },
+        {
+            "id": 2,
+            "discount": "10%",
+            "name": "Fried Egg Easter Cake",
+            "price": "65.000vnđ",
+            "imgLink": "https://www.angesdesucre.com/cdn/shop/articles/Tesco_Fake_Bake_10_Chocolate_Eggs_FEATURE_600x.jpg?v=1681149114"
+        },
+        {
+            "id": 3,
+            "discount": "15%",
+            "name": "Waffles Cake",
+            "price": "60.000vnđ",  
+            "imgLink": "https://www.urbanbakes.com/wp-content/uploads/2021/06/Belgian-Waffles-with-Honey-Vanilla-Creme-Fraiche-URBAN-BAKES-1.1.jpg"
+        },
+        {
+            "id": 4,
+            "discount": "15%",
+            "name": "Raspberry Cake",
+            "price": "60.000vnđ",  
+            "imgLink": "https://bakes-saigon.com/cdn/shop/files/RASPBERRYTIRA04_360x.jpg?v=1695372361"
+        },
+        {
+            "id": 5,
+            "discount": "10%",
+            "name": "French Macaroons",
+            "price": "50.000vnđ",  
+            "imgLink": "https://abby.vn/wp-content/uploads/2014/06/b%C3%A1nh-ng%E1%BB%8Dt_07.jpg"
+        },
+        {
+            "id": 6,
+            "discount": "5%",
+            "name": "Choccolate Cream Cake",
+            "price": "40.000vnđ",  
+            "imgLink": "https://vietair.com.vn/Media/Images/vietair/cam-nang-du-lich/van-hoa-an-uong-cua-nguoi-phap-1.png?p=1&w=412"
+        }
+    ]   
+    
+}

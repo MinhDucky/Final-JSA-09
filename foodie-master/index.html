@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie - Supper delicious Burger in town!</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/—Pngtree—bakery logo baker illustration_9019460.png" media="min-width(768px)">
+  <!-- <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)"> -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Bakery<span class="span">.</span></a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="../index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#food-menu" class="navbar-link" data-nav-link>Products</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="navbar-link" data-nav-link>Bakes</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Reservation</a>
+          </li>
+
+      
+        
+
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="btn btn-hover"><a href="../SignIn-SignUp-Form-main/index.html" class="navbar-link">Login</a></button>
+
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+        </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-container>
+
+    <div class="search-box">
+      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+        class="search-input">
+
+      <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+    </div>
+
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Let's taste perfection</p>
+
+            <h2 class="h1 hero-title">Supper delicious Bakes in town!</h2>
+
+            <p class="hero-text">Food is any substance consumed to provide nutritional support for an organism.</p>
+
+            <button class="btn">Let's check it</button>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner-bg.png" width="820" height="716" alt="" aria-hidden="true"
+              class="w-100 hero-img-bg">
+
+            <img src="./assets/images/—Pngtree—bakery logo baker illustration_9019460.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 hero-img">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROMO
+      -->
+
+      <section class="section section-divider white promo">
+        <div class="container">
+
+          <ul class="promo-list has-scrollbar">
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg width="60" height="60" viewBox="0 -41.13 445.11 445.11" xmlns="http://www.w3.org/2000/svg">
+
+                    <defs>
+                    
+                    <style>.cls-1{fill:#ff9d2d;}</style>
+                    
+                    </defs>
+                    
+                    <title/>
+                    
+                    <g data-name="Capa 2" id="Capa_2">
+                    
+                    <g id="Outline">
+                    
+                    <path class="cls-1" d="M436.61,314.76H398.39A31.06,31.06,0,0,0,392,278c.22-.22.45-.42.66-.64a31.12,31.12,0,0,0-.67-44.69c.23-.21.46-.42.67-.64a31.11,31.11,0,0,0-.67-44.68l.67-.64A31.11,31.11,0,0,0,392,142l.67-.64a31.16,31.16,0,0,0-22-53.2H312.1V62.38a21.18,21.18,0,0,0-21.16-21.16h-23a45.23,45.23,0,0,0-90.11,0h-23a21.19,21.19,0,0,0-21.16,21.16V88.15H74.46A31.14,31.14,0,0,0,53.09,142c-.22.21-.45.41-.67.63a31.12,31.12,0,0,0,.67,44.69c-.22.21-.45.41-.67.63a31.12,31.12,0,0,0,.67,44.69l-.67.64a31.11,31.11,0,0,0,.68,44.69,31.07,31.07,0,0,0-6.38,36.82H8.5a8.51,8.51,0,0,0-8.5,8.5,39.64,39.64,0,0,0,39.59,39.6H405.52a39.64,39.64,0,0,0,39.59-39.6A8.51,8.51,0,0,0,436.61,314.76ZM384.81,210a14.17,14.17,0,0,1-14.17,14.16H294.58V195.8h76.06A14.18,14.18,0,0,1,384.81,210Zm0-45.32a14.17,14.17,0,0,1-14.17,14.16H294.58V150.48h76.06A14.18,14.18,0,0,1,384.81,164.64Zm0-45.32a14.17,14.17,0,0,1-14.17,14.16H294.58V105.15h76.06A14.18,14.18,0,0,1,384.81,119.32ZM222.86,17a28.29,28.29,0,0,1,28,24.22h-4.51a24.36,24.36,0,0,0-23.45-17.89,3.5,3.5,0,0,0,0,7,17.32,17.32,0,0,1,16.06,10.89h-44A28.29,28.29,0,0,1,222.86,17ZM150.62,62.38a4.17,4.17,0,0,1,4.16-4.16H290.94a4.16,4.16,0,0,1,4.16,4.16V88.15h-9a8.51,8.51,0,0,0-8.5,8.5v131a4.45,4.45,0,0,1-.34,1.73,4.57,4.57,0,0,1-1,1.44,4.5,4.5,0,0,1-.68.56,4.5,4.5,0,0,1-5.66-.56,4.71,4.71,0,0,1-1-1.44,4.46,4.46,0,0,1-.35-1.73v-131a8.5,8.5,0,0,0-8.5-8.5H234.64a8.51,8.51,0,0,0-8.5,8.5v86.74h0c0,.1,0,.19,0,.28a3.65,3.65,0,0,1-.2,1.09,4.43,4.43,0,0,1-1.1,1.8,4.5,4.5,0,0,1-.68.56,4.45,4.45,0,0,1-2.49.75,4.32,4.32,0,0,1-1-.13,4.45,4.45,0,0,1-2.14-1.18A5.73,5.73,0,0,1,218,186a4.49,4.49,0,0,1-.64-1.25,4.21,4.21,0,0,1-.2-1.1,2.64,2.64,0,0,0,0-.28V96.65a8.5,8.5,0,0,0-8.5-8.5H165.86V67.32a3.5,3.5,0,0,0-7,0V88.15h-8.24Zm101,71.1h-8.48V105.15h8.48Zm-8.48,17h8.48V178.8h-8.48ZM60.29,119.32a14.17,14.17,0,0,1,14.17-14.17H200.18v28.33H74.46A14.18,14.18,0,0,1,60.29,119.32Zm0,45.32a14.15,14.15,0,0,1,14.17-14.16H200.18V178.8H74.46A14.18,14.18,0,0,1,60.29,164.64Zm0,45.32A14.15,14.15,0,0,1,74.46,195.8H204.13l.16.2c.26.35.52.69.79,1l.3.36c.35.41.71.81,1.09,1.19a21.43,21.43,0,0,0,27.67,2.28,20.77,20.77,0,0,0,2.71-2.27c.39-.39.76-.79,1.11-1.21l.27-.32c.29-.35.58-.72.85-1.1l.12-.15h12.42v28.32H74.46A14.18,14.18,0,0,1,60.29,210ZM256.4,241.12l.05.06c.46.56.95,1.1,1.46,1.62a21.5,21.5,0,0,0,28.8,1.44,19.54,19.54,0,0,0,1.58-1.44c.52-.52,1-1.06,1.46-1.62l.06-.06h80.83a14.16,14.16,0,1,1,0,28.32H74.46a14.16,14.16,0,1,1,0-28.32ZM60.3,300.6a14.17,14.17,0,0,1,14.16-14.16H370.65a14.16,14.16,0,1,1,0,28.32H74.46A14.17,14.17,0,0,1,60.3,300.6Zm345.22,45.26H39.59a22.62,22.62,0,0,1-20.93-14.1H426.45A22.64,22.64,0,0,1,405.52,345.86Z" id="Pancakes"/>
+                    
+                    </g>
+                    
+                    </g>
+                    
+                    </svg>
+                </div>
+
+                <h3 class="h3 card-title">Pancake</h3>
+
+                <!-- <p class="card-text">
+                  Food is any substance consumed to provide nutritional support for an organism.
+                </p> -->
+
+                <img src="./assets/images/371894035_1279197166293423_300706704278621253_n.jpg" width="300" height="300" loading="lazy" alt="Maxican Pizza"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg width="60" height="60" viewBox="-38.84 0 480.34 480.34" xmlns="http://www.w3.org/2000/svg">
+
+                    <defs>
+                    
+                    <style>.cls-1{fill:#ff9d2d;}</style>
+                    
+                    </defs>
+                    
+                    <title/>
+                    
+                    <g data-name="Capa 2" id="Capa_2">
+                    
+                    <g id="Outline">
+                    
+                    <g id="Cupcake">
+                    
+                    <path class="cls-1" d="M402.65,242.62a55.07,55.07,0,0,0-55.07-55.07h-6A55.05,55.05,0,0,0,301.84,94.4H297c-2.17-13-9.55-22.37-22-28.07-13.6-6.22-31.9-7-46.33-7A31.26,31.26,0,0,1,207.78,52c-4.49-4-7.16-9.14-7.16-13.86,0-11.26,4.83-19.65,7-20.92a8.5,8.5,0,0,0,.2-17c-2.46-.18-60.63-3.88-88.53,30.25C106.06,46.62,102,68.1,107.22,94.4h-6.41A55.08,55.08,0,0,0,61,187.55h-6a55.07,55.07,0,0,0-7.8,109.59L85.82,473.66a8.51,8.51,0,0,0,8.31,6.68H308.52a8.51,8.51,0,0,0,8.31-6.68l38.55-176.53A55.15,55.15,0,0,0,402.65,242.62ZM242.57,463.34l10.36-165.65H294L273.28,463.34Zm-113.2,0L108.65,297.69h41.07l10.36,165.65Zm27.36-165.65h41.1V463.34H167.09Zm48.1,0h41.09L235.56,463.34H204.83Zm-140,0H101.6l20.72,165.65H101ZM301.68,463.34H280.33l20.72-165.65h36.81Zm46.09-182.65H54.87a38.07,38.07,0,0,1,.2-76.14H184.92a8.5,8.5,0,1,0,0-17H100.81a38.08,38.08,0,0,1,0-76.15H116a8.17,8.17,0,0,0,2.1.27,8.86,8.86,0,0,0,2.09-.26,8.5,8.5,0,0,0,6.15-10.33l-.05-.2s0-.09,0-.14,0-.07,0-.11c-7.12-25.61-5-45.59,6.23-59.38,13.58-16.65,38-22,55.07-23.57a56.72,56.72,0,0,0-3.86,20.41c0,9.66,4.7,19.36,12.9,26.6A48.25,48.25,0,0,0,228.6,76.31c35.25,0,47.57,6.74,51,18.09H227.66a8.5,8.5,0,0,0,0,17h74.18a38.08,38.08,0,0,1,0,76.15,8.5,8.5,0,0,0,0,17h45.74a38.07,38.07,0,0,1,.19,76.14Z"/>
+                    
+                    <path class="cls-1" d="M240.12,230a15.72,15.72,0,1,0,15.71,15.72A15.74,15.74,0,0,0,240.12,230Zm0,24.44a8.72,8.72,0,1,1,8.71-8.72A8.73,8.73,0,0,1,240.12,254.48Z"/>
+                    
+                    <path class="cls-1" d="M73.29,229.1a10.16,10.16,0,1,0-10.16,10.16A10.17,10.17,0,0,0,73.29,229.1Zm-10.16,3.16a3.16,3.16,0,1,1,3.16-3.16A3.15,3.15,0,0,1,63.13,232.26Z"/>
+                    
+                    <path class="cls-1" d="M350.08,218.94a10.16,10.16,0,1,0,10.17,10.16A10.17,10.17,0,0,0,350.08,218.94Zm0,13.32a3.16,3.16,0,1,1,3.17-3.16A3.16,3.16,0,0,1,350.08,232.26Z"/>
+                    
+                    <path class="cls-1" d="M147.18,129a11.28,11.28,0,1,0,11.28,11.28A11.29,11.29,0,0,0,147.18,129Zm0,15.55a4.28,4.28,0,1,1,4.28-4.27A4.28,4.28,0,0,1,147.18,144.51Z"/>
+                    
+                    <path class="cls-1" d="M164.21,57.13a11.28,11.28,0,1,0,11.28,11.28A11.28,11.28,0,0,0,164.21,57.13Zm0,15.55a4.28,4.28,0,1,1,4.28-4.27A4.27,4.27,0,0,1,164.21,72.68Z"/>
+                    
+                    <path class="cls-1" d="M262,142.66a12.39,12.39,0,1,0,12.39,12.39A12.41,12.41,0,0,0,262,142.66Zm0,17.77a5.39,5.39,0,1,1,5.39-5.38A5.39,5.39,0,0,1,262,160.43Z"/>
+                    
+                    <path class="cls-1" d="M134.17,252.91a11.28,11.28,0,1,0,11.27,11.27A11.28,11.28,0,0,0,134.17,252.91Zm0,15.55a4.28,4.28,0,1,1,4.27-4.28A4.28,4.28,0,0,1,134.17,268.46Z"/>
+                    
+                    <path class="cls-1" d="M167.47,220.83a3.5,3.5,0,0,0-4.88.82,9.52,9.52,0,0,1-13.28,2.24,3.5,3.5,0,1,0-4.06,5.7,16.54,16.54,0,0,0,23.05-3.88A3.5,3.5,0,0,0,167.47,220.83Z"/>
+                    
+                    <path class="cls-1" d="M311.52,250.61a3.5,3.5,0,0,0-4.12,5.66,9.53,9.53,0,0,1,2.09,13.3,3.5,3.5,0,0,0,5.66,4.12A16.55,16.55,0,0,0,311.52,250.61Z"/>
+                    
+                    <path class="cls-1" d="M234.81,192.48a3.5,3.5,0,0,0,.34-7,9.53,9.53,0,0,1-8.52-10.43,3.5,3.5,0,0,0-7-.7,16.54,16.54,0,0,0,14.79,18.09A2.17,2.17,0,0,0,234.81,192.48Z"/>
+                    
+                    <path class="cls-1" d="M109,147.56a16.5,16.5,0,0,0-22.35,6.79,3.51,3.51,0,0,0,1.44,4.74,3.44,3.44,0,0,0,1.64.41,3.5,3.5,0,0,0,3.09-1.85,9.52,9.52,0,0,1,12.89-3.92,3.5,3.5,0,1,0,3.29-6.17Z"/>
+                    
+                    <path class="cls-1" d="M183.65,101.62a3.5,3.5,0,1,0-2.22,6.64,9.53,9.53,0,0,1,6,12.06,3.51,3.51,0,0,0,2.21,4.43,3.58,3.58,0,0,0,1.11.18,3.49,3.49,0,0,0,3.32-2.39A16.54,16.54,0,0,0,183.65,101.62Z"/>
+                    
+                    <path class="cls-1" d="M305.32,134.35A9.53,9.53,0,0,1,314,144.67a3.5,3.5,0,0,0,3.18,3.79h.31a3.49,3.49,0,0,0,3.48-3.19,16.53,16.53,0,0,0-15-17.9,3.5,3.5,0,1,0-.61,7Z"/>
+                    
+                    <path class="cls-1" d="M84.56,253.13a16.53,16.53,0,0,0-17.83,15.11,3.5,3.5,0,0,0,3.2,3.77h.3a3.49,3.49,0,0,0,3.48-3.21A9.51,9.51,0,0,1,84,260.11a3.5,3.5,0,0,0,.58-7Z"/>
+                    
+                    </g>
+                    
+                    </g>
+                    
+                    </g>
+                    
+                    </svg>
+                </div>
+
+                <h3 class="h3 card-title">Cupcake</h3>
+
+                <!-- <p class="card-text">
+                  Food is any substance consumed to provide nutritional support for an organism.
+                </p> -->
+
+                <img src="./assets/images/345001486_190721353887499_3579659931184356237_n.jpg" width="300" height="300" loading="lazy" alt="Soft Drinks"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg height="60" width="60" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512"  xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ff9d2d;}
+</style>
+<g>
+	<path class="st0" d="M511.334,242.769c-21.656-77.603-58.086-124.259-89.753-150.968c-31.645-26.764-58.097-33.71-60.032-34.194
+		l-6.216-1.559L43.022,203.983C16.753,216.447,0,242.909,0,271.984v142.484c0.011,22.914,18.57,41.463,41.484,41.484h429.032
+		c22.914-0.021,41.474-18.57,41.484-41.484V245.124L511.334,242.769z M476.28,414.467c0,3.172-2.592,5.764-5.764,5.764H41.484
+		c-3.172,0-5.763-2.592-5.763-5.764v-40.666H476.28V414.467z M476.28,349.984H35.721v-42.86H476.28V349.984z"/>
+</g>
+</svg>
+                </div>
+
+                <h3 class="h3 card-title">SweetCake</h3>
+
+                <!-- <p class="card-text">
+                  Food is any substance consumed to provide nutritional support for an organism.
+                </p> -->
+
+                <img src="./assets/images/358931220_1040079870691109_8693189133968217659_n.jpg" width="300" height="300" loading="lazy" alt="French Fry"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg width="60" height="60" viewBox="0 -3.64 48.166 48.166" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Group_24" data-name="Group 24" transform="translate(-276.794 -366.685)">
+                      <rect id="Rectangle_6" data-name="Rectangle 6" width="46.104" height="8.302" transform="translate(323.898 392.804) rotate(-180)" fill="none" stroke="#ff9d2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      <rect id="Rectangle_7" data-name="Rectangle 7" width="46.104" height="5.087" transform="translate(323.898 397.891) rotate(-180)" fill="none" stroke="#ff9d2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      <rect id="Rectangle_8" data-name="Rectangle 8" width="46.104" height="8.675" transform="translate(323.898 406.566) rotate(-180)" fill="none" stroke="#ff9d2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      <path id="Path_54" data-name="Path 54" d="M299.222,374.859,323.96,384.5h-46.1l10.908-9.961" fill="none" stroke="#ff9d2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      <g id="Group_23" data-name="Group 23">
+                        <path id="Path_55" data-name="Path 55" d="M299.109,376.752c0,2.831-2.3,3.706-5.125,3.706s-5.125-.875-5.125-3.706,2.294-9.067,5.125-9.067S299.109,373.922,299.109,376.752Z" fill="none" stroke="#ff9d2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        <circle id="Ellipse_55" data-name="Ellipse 55" cx="1.083" cy="1.083" r="1.083" transform="translate(294.713 374.859)" fill="#ffffff" stroke="#ff9d2d" stroke-width="1"/>
+                        <circle id="Ellipse_56" data-name="Ellipse 56" cx="1.083" cy="1.083" r="1.083" transform="translate(292.9 371.346)" fill="#ffffff" stroke="#ff9d2d" stroke-width="1"/>
+                        <circle id="Ellipse_57" data-name="Ellipse 57" cx="1.083" cy="1.083" r="1.083" transform="translate(291.137 374.859)" fill="#ffffff" stroke="#ff9d2d" stroke-width="1"/>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Cake</h3>
+
+                <!-- <p class="card-text">
+                  Food is any substance consumed to provide nutritional support for an organism.
+                </p> -->
+
+                <img src="./assets/images/362741128_1407563723355879_667312334278434217_n.jpg" width="300" height="300" loading="lazy" alt="Burger Kingo"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg width="60" height="60" viewBox="0 -4.37 42.823 42.823" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Group_3" data-name="Group 3" transform="translate(-70.087 -129.016)">
+                      <rect id="Rectangle_3" data-name="Rectangle 3" width="40.715" height="6.639" rx="3.319" transform="translate(71.087 144.5)" fill="none" stroke="#ff9d2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      <path id="Path_8" data-name="Path 8" d="M74.184,144.36H108.7c1.952,0,3.1-1.869,3.1-3.9,0-5.785-9.115-10.44-20.358-10.44s-20.357,4.637-20.357,10.422C71.087,142.474,72.233,144.36,74.184,144.36Z" fill="none" stroke="#ff9d2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      <path id="Path_9" data-name="Path 9" d="M109.7,151.094c-.269.091-36.244.091-36.514,0a3.181,3.181,0,0,0-2.1,3.182c0,5.754,9.114,7.825,20.357,7.825s20.358-2.057,20.358-7.811A3.2,3.2,0,0,0,109.7,151.094Z" fill="none" stroke="#ff9d2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      <line id="Line_1" data-name="Line 1" x2="40" transform="translate(71.91 141.36)" fill="none" stroke="#ff9d2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      <line id="Line_2" data-name="Line 2" x2="40" transform="translate(71.91 154.36)" fill="none" stroke="#ff9d2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                    </g>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Macaroon</h3>
+
+                <!-- <p class="card-text">
+                  Food is any substance consumed to provide nutritional support for an organism.
+                </p> -->
+
+                <img src="./assets/images/394481548_824766112668279_8043215462333758170_n.jpg" width="300" height="300" loading="lazy" alt="Chicken Masala"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section section-divider gray about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+            <img src="./assets/images/image-removebg-preview.png" width="1000" height="1000" loading="lazy" alt="Burger with Drinks"
+              class="w-100 about-img">
+
+            <img src="./assets/images/sale-shape-red.png" width="216" height="226" alt="get up to 50% off now"
+              class="abs-img scale-up-anim">
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">
+              Special SweetCake
+              <span class="span">in Town!</span>
+            </h2>
+
+            <p class="section-text">
+              The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during
+              the Jurchen
+              invasion of the 1120s, while it is also known that many restaurants were run by families.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Delicious & Healthy Foods</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Spacific Family And Kids Zone</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Music & Other Facilities</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Fastest Food Home Delivery</span>
+              </li>
+
+            </ul>
+
+            <button class="btn btn-hover">Order Now</button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FOOD MENU
+      -->
+
+      <section class="section food-menu" id="food-menu">
+        <div class="container">
+
+          <p class="section-subtitle">Popular Dishes</p>
+
+          <h2 class="h2 section-title">
+            Our Delicious <span class="span">Foods</span>
+          </h2>
+
+          <p class="section-text">
+            Food is any substance consumed to provide nutritional support for an organism.
+          </p>
+
+          <ul class="fiter-list">
+
+            <li>
+              <button class="filter-btn  active">All</button>
+            </li>
+
+          </ul>
+
+          <ul class="food-menu-list" id="menu-list">
+            
+
+            
+
+            
+
+          </ul>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section section-divider white cta" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="cta-content">
+
+            <h2 class="h2 section-title">
+              The Foodie Have Excellent Of
+              <span class="span">Quality Bakes!</span>
+            </h2>
+
+            <p class="section-text">
+              The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during
+              the Jurchen
+              invasion of the 1120s, while it is also known that many restaurants were run by families.
+            </p>
+
+            <button class="btn btn-hover">Order Now</button>
+          </div>
+
+          <figure class="cta-banner">
+            <img src="./assets/images/—Pngtree—bakery clip art ideas_5894540.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 cta-img">
+
+            <img src="./assets/images/sale-shape.png" width="216" height="226" loading="lazy"
+              alt="get up to 50% off now" class="abs-img scale-up-anim">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #DELIVERY
+      -->
+
+      <section class="section section-divider gray delivery">
+        <div class="container">
+
+          <div class="delivery-content">
+
+            <h2 class="h2 section-title">
+              A Moments Of Delivered On <span class="span">Right Time</span>
+            </h2>
+
+            <p class="section-text">
+              The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during
+              the Jurchen
+              invasion of the 1120s, while it is also known that many restaurants were run by families.
+            </p>
+
+            <button class="btn btn-hover">Order Now</button>
+          </div>
+
+          <figure class="delivery-banner">
+            <img src="./assets/images/delivery-banner-bg.png" width="700" height="602" loading="lazy" alt="clouds"
+              class="w-100">
+
+            <img src="./assets/images/delivery-boy.svg" width="1000" height="880" loading="lazy" alt="delivery boy"
+              class="w-100 delivery-img" data-delivery-boy>
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section section-divider white testi">
+        <div class="container">
+
+          <p class="section-subtitle">Testimonials</p>
+
+          <h2 class="h2 section-title">
+            Our Customers <span class="span">Reviews</span>
+          </h2>
+
+          <p class="section-text">
+            Food is any substance consumed to provide nutritional
+            support for an organism.
+          </p>
+
+          <ul class="testi-list has-scrollbar">
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-1.jpg" width="80" height="80" loading="lazy" alt="Robert William">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Robert William</h3>
+
+                    <p class="testi-title">CEO Kingfisher</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would be lost without restaurant. I would like to personally thank you for your outstanding
+                  product."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-2.jpg" width="80" height="80" loading="lazy" alt="Thomas Josef">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Thomas Josef</h3>
+
+                    <p class="testi-title">CEO Getforce</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would be lost without restaurant. I would like to personally thank you for your outstanding
+                  product."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-3.jpg" width="80" height="80" loading="lazy" alt="Charles Richard">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Charles Richard</h3>
+
+                    <p class="testi-title">CEO Angela</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would be lost without restaurant. I would like to personally thank you for your outstanding
+                  product."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #BANNER
+      -->
+
+      <section class="section section-divider gray banner">
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li class="banner-item banner-lg">
+              <div class="banner-card">
+
+                <img src="./assets/images/354473720_297941075914484_5491856131613753295_n.jpg" width="550" height="450" loading="lazy"
+                  alt="Discount For Delicious Tasty Burgers!" class="banner-img">
+
+                <div class="banner-item-content">
+                  <p class="banner-subtitle">50% Off Now!</p>
+
+                  <h3 class="banner-title">Discount For Delicious Tasty Cake!</h3>
+
+                  <p class="banner-text">Sale off 30% only this week</p>
+
+                  <button class="btn">Order Now</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/373467846_6903735336324612_1839721463213613559_n.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Delicious Cake</h3>
+
+                  <p class="banner-text">15% off Now</p>
+
+                  <button class="btn">Order Now</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/394462615_3643126039240532_3007654311882588721_n.jpg" width="550" height="465" loading="lazy" alt="American Burgers"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">French Cake</h3>
+
+                  <p class="banner-text">20% off Now</p>
+
+                  <button class="btn">Order Now</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-md">
+              <div class="banner-card">
+
+                <img src="./assets/images/image-removebg-preview.png" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Tasty Floor Cake</h3>
+
+                  <p class="banner-text">Sale off 30% only this week</p>
+
+                  <button class="btn">Order Now</button>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./assets/js/main.js" defer></script>
+</body>
+
+</html>
